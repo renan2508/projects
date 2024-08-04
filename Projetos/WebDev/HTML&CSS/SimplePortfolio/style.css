@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter";
+}
+header{
+    background-color: rgb(49, 47, 49);
+}
+.name{
+    padding-left: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.link_group{
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.headerclass{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.position{
+    margin-top: 10vw;
+    margin-left: 10vw;
+}
+.lorem{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 14px;
+    text-align: justify;
+    max-width: 30vw;
+}
+#oval{
+    display: flex;
+    align-items: end;
+    width: 200px;          /* Largura da oval */
+    height: 200px;         /* Altura da oval */
+    background-image: url(profilep.png);
+    border-radius: 50% / 100%; /* Raio da borda para fazer a oval */
+}
+.butaocontact{
+    background-color: black;
+    height: 3vw;
+    width: 10vw;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.buttons{
+    display: flex;
+}
+.button2{
+    width: 7vw;
+    height: 3vw;
+    margin-right: 4vw;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.button3{
+    width: 10vw;
+    height: 3vw;
+    background-color: rgb(251, 69, 0);
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+    object-fit: contain;
+}
+.hi{
+    color: black;
+    font-size: 3.5vh;
+    font-weight: 800;
+}
+.name2{
+    color: black;
+    font-size: 5vw;
+    font-weight: 900;
+}
+.re{
+    color: orangered;
+    font-weight: bolder;
+}
+a{
+    color: white;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(251, 69, 0);
+    text-decoration: underline;
+    transition-duration: 1.2s;
+}
+.current{
+    color: rgb(251, 69, 0);
+    text-decoration: underline;
+}
+.main_name{
+    color:rgb(251, 69, 0);
+    font-size: 2em;
+    font-family: "Playwrite PE";
+}

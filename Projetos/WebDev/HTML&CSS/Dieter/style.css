@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter";
+}
+body{
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    min-height: 100vh;
+}
+img{
+    height: 60vh;
+    width: 50vw;
+    overflow: hidden;
+    object-fit: contain;
+}
+.main_text{
+    margin-top: 15vh;
+    margin-left: 10vw;
+    max-height: 40vh;
+}
+.main_text_p{
+    color: white;
+    font-weight: 800;
+    font-size: 4.8vw;
+}
+.cap_name{
+    margin-left: 10vw;
+    margin-top: 8vw;
+}
+.name{
+    color: rgb(143, 142, 144);
+    font-weight: 900;
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+.gid{
+    color:rgb(170, 170, 170);
+    font-size: 18px;
+    font-weight: 300;
+}
+.imagemc{
+    display: flex;
+    align-items: center;
+}
