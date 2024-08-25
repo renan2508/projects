@@ -14,13 +14,11 @@ void lose(){
 int main(){
 
     int choice, PCNumberGuess;
-    //gera um numero aleatório
     srand(time(NULL));
     PCNumberGuess = rand() % 3 +1;
     
     printf("Choose your fighter:\n [1] Rock\n [2] Paper\n [3] Scissors\n");
     scanf("%d", &choice);
-    printf("%d\n", PCNumberGuess);
 
     if(choice == PCNumberGuess){
         tie();
